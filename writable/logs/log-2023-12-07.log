@@ -1,0 +1,751 @@
+ERROR - 2023-12-07 16:04:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:04:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:04:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:04:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:04:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:04:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:04:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:04:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:04:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:04:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:15:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:15:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:15:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:15:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:17:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:17:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:17:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:17:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:17:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:17:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:18:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:18:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:18:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:18:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:18:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:18:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:19:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:19:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+ERROR - 2023-12-07 16:22:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\semester_3\Project_UAS\app\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-07 16:22:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_karyawan`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\KaryawanModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Karyawan.php(17): App\Models\KaryawanModel->getKaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+CRITICAL - 2023-12-07 17:01:52 --> Undefined variable $nomor
+in APPPATH\Views\view\karyawan.php on line 31.
+ 1 APPPATH\Views\view\karyawan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\karyawan.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(21): view('view/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+CRITICAL - 2023-12-07 17:04:17 --> Cannot increment array
+in APPPATH\Views\view\karyawan.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/karyawan', [], true)
+ 4 APPPATH\Controllers\Karyawan.php(21): view('view/karyawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+CRITICAL - 2023-12-07 17:04:18 --> Cannot increment array
+in APPPATH\Views\view\karyawan.php on line 31.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/karyawan', [], true)
+ 4 APPPATH\Controllers\Karyawan.php(21): view('view/karyawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+CRITICAL - 2023-12-07 17:10:13 --> Undefined variable $nomor
+in APPPATH\Views\view\karyawan.php on line 31.
+ 1 APPPATH\Views\view\karyawan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\karyawan.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(21): view('view/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')

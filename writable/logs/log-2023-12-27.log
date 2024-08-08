@@ -1,0 +1,147 @@
+INFO - 2023-12-27 03:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-27 03:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-27 07:28:34 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 16.
+ 1 APPPATH\Views\layout\notifikasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(23): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(25): view('view/login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 07:28:53 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 16.
+ 1 APPPATH\Views\layout\notifikasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(23): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(25): view('view/login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-27 07:29:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sem_3_ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\app\Controllers\Login.php(39): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(919): App\Controllers\Login->login()
+#8 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\app\Controllers\Login.php(39): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(919): App\Controllers\Login->login()
+#7 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\semester_3\UAS_TI3B_221101040\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-27 07:29:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(39): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 07:29:33 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 16.
+ 1 APPPATH\Views\layout\notifikasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(23): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(25): view('view/login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 07:29:45 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 16.
+ 1 APPPATH\Views\layout\notifikasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(23): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(25): view('view/login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-27 07:30:40 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 16.
+ 1 APPPATH\Views\layout\notifikasi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(23): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(25): view('view/login', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,71 @@
+INFO - 2023-12-12 09:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 09:49:23 --> mysqli_sql_exception: Duplicate entry '9876' for key 'PRIMARY' in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->simpan()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-12-12 09:49:23 --> Duplicate entry '9876' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_karyawan` (`id_karyawan`, `nama`, `posisi`, `status`) VALUES (:id_karyawan:, :nama:, :posisi:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Karyawan.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+INFO - 2023-12-12 09:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 09:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 10:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 10:04:07 --> mysqli_sql_exception: Duplicate entry '9876' for key 'PRIMARY' in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Karyawan.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Karyawan->simpan()
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-12-12 10:04:07 --> Duplicate entry '9876' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_karyawan` (`id_karyawan`, `nama`, `posisi`, `status`) VALUES (:id_karyawan:, :nama:, :posisi:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Karyawan.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+INFO - 2023-12-12 10:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 10:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 10:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 10:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 10:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

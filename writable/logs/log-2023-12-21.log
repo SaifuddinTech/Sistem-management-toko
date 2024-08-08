@@ -1,0 +1,445 @@
+INFO - 2023-12-21 17:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 17:48:41 --> Invalid file: "view_login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view_login', [], true)
+ 3 APPPATH\Controllers\Login.php(67): view('view_login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+INFO - 2023-12-21 17:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 17:49:04 --> Undefined variable $data
+in APPPATH\Views\layout\layout_login.php on line 12.
+ 1 APPPATH\Views\layout\layout_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\layout_login.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\layout_login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout_login', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 6 APPPATH\Controllers\Login.php(67): view('view/login')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+INFO - 2023-12-21 17:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 17:49:47 --> Array to string conversion
+in APPPATH\Views\layout\notifikasi.php on line 14.
+ 1 APPPATH\Views\layout\notifikasi.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\notifikasi.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\notifikasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifikasi', [], true)
+ 5 APPPATH\Views\view\login.php(12): view('App\\Views\\layout\\notifikasi')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(67): view('view/login')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 17:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 17:51:36 --> Array to string conversion
+in APPPATH\Views\layout\notifications.php on line 19.
+ 1 APPPATH\Views\layout\notifications.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\notifications.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\layout\\notifications.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifications', [], true)
+ 5 APPPATH\Views\view\login.php(12): view('App\\Views\\layout\\notifications')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\login.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/login', [], true)
+ 9 APPPATH\Controllers\Login.php(67): view('view/login')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 17:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 17:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 18:10:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\view\crud_karyawan\edit_karyawan.php on line 18.
+ 1 APPPATH\Views\view\crud_karyawan\edit_karyawan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/crud_karyawan/edit_karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(67): view('view/crud_karyawan/edit_karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit('44')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 18:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 18:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 19:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 19:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 19:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 19:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 20:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 20:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 20:37:35 --> Invalid file: "App\Views\user_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\user_add.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\user_add', [], true)
+ 3 APPPATH\Views\view\user.php(8): view('App\\Views\\user_add')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 7 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:39:29 --> Invalid file: "App\Views\layout\notifications.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layout\\notifications.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifications', [], true)
+ 3 APPPATH\Views\view\user.php(33): view('App\\Views\\layout\\notifications')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 7 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:39:30 --> Invalid file: "App\Views\layout\notifications.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layout\\notifications.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifications', [], true)
+ 3 APPPATH\Views\view\user.php(33): view('App\\Views\\layout\\notifications')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 7 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:39:31 --> Invalid file: "App\Views\layout\notifications.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layout\\notifications.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifications', [], true)
+ 3 APPPATH\Views\view\user.php(33): view('App\\Views\\layout\\notifications')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 7 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:39:41 --> Invalid file: "App\Views\layout\notifications.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layout\\notifications.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('App\\Views\\layout\\notifications', [], true)
+ 3 APPPATH\Views\view\user.php(33): view('App\\Views\\layout\\notifications')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 7 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:41:33 --> Undefined variable $datakaryawan
+in APPPATH\Views\view\user.php on line 54.
+ 1 APPPATH\Views\view\user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datakaryawan', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:41:58 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\view\user.php on line 55.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 3 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 20:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-21 20:45:33 --> mysqli_sql_exception: Table 'sem_3_ci4.data_user' doesn't exist in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Login.php(82): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Login->login()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-21 20:45:33 --> Table 'sem_3_ci4.data_user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(82): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+INFO - 2023-12-21 20:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-21 20:45:44 --> mysqli_sql_exception: Table 'sem_3_ci4.data_user' doesn't exist in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\Login.php(82): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\Login->login()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\semester_3\Project_UAS\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-12-21 20:45:44 --> Table 'sem_3_ci4.data_user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_user`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(82): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\public\\index.php')
+CRITICAL - 2023-12-21 20:47:15 --> Undefined variable $datakaryawan
+in APPPATH\Views\view\user.php on line 30.
+ 1 APPPATH\Views\view\user.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datakaryawan', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 20:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 20:49:16 --> Undefined variable $datakaryawan
+in APPPATH\Views\view\user.php on line 30.
+ 1 APPPATH\Views\view\user.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datakaryawan', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:50:18 --> Undefined variable $datapager
+in APPPATH\Views\view\user.php on line 33.
+ 1 APPPATH\Views\view\user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datapager', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 20:50:19 --> Undefined variable $datapager
+in APPPATH\Views\view\user.php on line 33.
+ 1 APPPATH\Views\view\user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datapager', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(16): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 22:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 23:20:56 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 23:22:01 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 23:22:02 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 23:22:03 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 23:22:08 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 23:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 23:22:43 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(21): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 23:33:14 --> mysqli_sql_exception: Table 'sem_3_ci4.data_user' doesn't exist in C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\semester_3\Project_UAS\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\semester_3\Project_UAS\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\semester_3\Project_UAS\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\semester_3\Project_UAS\app\Controllers\User.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(919): App\Controllers\User->index()
+#8 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\semester_3\Project_UAS\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\semester_3\Project_UAS\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-21 23:33:14 --> Table 'sem_3_ci4.data_user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data_user`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\User.php(21): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 23:37:24 --> Undefined variable $datausers
+in APPPATH\Views\view\user.php on line 29.
+ 1 APPPATH\Views\view\user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datausers', 'C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\Project_UAS\\app\\Views\\view\\user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/user', [], true)
+ 5 APPPATH\Controllers\User.php(22): view('view/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 23:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 23:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

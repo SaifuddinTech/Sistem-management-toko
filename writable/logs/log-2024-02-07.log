@@ -1,0 +1,33 @@
+CRITICAL - 2024-02-07 14:28:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\view\crud_karyawan\edit_karyawan.php on line 18.
+ 1 APPPATH\Views\view\crud_karyawan\edit_karyawan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/crud_karyawan/edit_karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(67): view('view/crud_karyawan/edit_karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit('69')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 14:28:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\view\crud_karyawan\edit_karyawan.php on line 18.
+ 1 APPPATH\Views\view\crud_karyawan\edit_karyawan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/crud_karyawan/edit_karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(67): view('view/crud_karyawan/edit_karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit('69')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-07 14:29:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\view\crud_karyawan\edit_karyawan.php on line 18.
+ 1 APPPATH\Views\view\crud_karyawan\edit_karyawan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\UAS_TI3B_221101040\\app\\Views\\view\\crud_karyawan\\edit_karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/crud_karyawan/edit_karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(67): view('view/crud_karyawan/edit_karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit('69')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

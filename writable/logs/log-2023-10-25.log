@@ -1,0 +1,87 @@
+CRITICAL - 2023-10-25 16:11:43 --> Undefined constant "App\Controllers\dashboard"
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:11:46 --> Undefined constant "App\Controllers\dashboard"
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:12:25 --> Undefined constant "App\Controllers\dashboard"
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:12:25 --> Undefined constant "App\Controllers\dashboard"
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:13:09 --> Undefined constant "App\Controllers\dashboard"
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:14:25 --> Undefined variable $data
+in APPPATH\Views\layout\layout_page.php on line 11.
+ 1 APPPATH\Views\layout\layout_page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout_page', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/dashboard', [], true)
+ 6 APPPATH\Controllers\Page.php(15): view('view/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 16:14:58 --> Undefined variable $data
+in APPPATH\Views\layout\layout_page.php on line 11.
+ 1 APPPATH\Views\layout\layout_page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout_page', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/dashboard', [], true)
+ 6 APPPATH\Controllers\Page.php(15): view('view/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Page->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 19:28:25 --> Undefined variable $dashboard
+in APPPATH\Views\layout\layout_page.php on line 11.
+ 1 APPPATH\Views\layout\layout_page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout_page', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/product', [], true)
+ 6 APPPATH\Controllers\Product.php(15): view('view/product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Product->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
+CRITICAL - 2023-10-25 19:29:29 --> Undefined variable $dashboard
+in APPPATH\Views\layout\layout_page.php on line 194.
+ 1 APPPATH\Views\layout\layout_page.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dashboard', 'C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php', 194)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\semester_3\\project_uts\\app\\Views\\layout\\layout_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout_page', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view/product', [], true)
+ 6 APPPATH\Controllers\Product.php(15): view('view/product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Product->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\semester_3\\project_uts\\public\\index.php')
